@@ -31,7 +31,3 @@ _Add screenshots here once the app is running._
 pip install -r requirements.txt
 streamlit run app.py
 ```
-
-## Notes
-
-This is intended to be a portfolio-style project: small enough to finish, but polished enough to show analysis, cleanup, and presentation.
