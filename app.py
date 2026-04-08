@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+from pathlib import Path
+
 import pandas as pd
 import plotly.express as px
 import streamlit as st
@@ -10,6 +12,7 @@ from src.metrics import build_metrics
 from src.charts import top_complaints, borough_counts, monthly_trends
 
 APP_TITLE = "NYC 311 Data Quality Dashboard"
+DATA_PATH = Path("data/raw/nyc_311_sample.csv")
 
 
 def main() -> None:
@@ -28,6 +31,15 @@ def main() -> None:
         }
         .hero h1 { color: white; margin-bottom: 0.25rem; }
         .hero p { color: #dbeafe; margin: 0; }
+        .data-badge {
+            display: inline-block;
+            padding: 0.35rem 0.7rem;
+            border-radius: 999px;
+            background: #e0f2fe;
+            color: #0f172a;
+            font-size: 0.9rem;
+            margin-top: 0.6rem;
+        }
         </style>
         """,
         unsafe_allow_html=True,
@@ -44,10 +56,12 @@ def main() -> None:
     )
 
     @st.cache_data(show_spinner=True)
-    def cached_load() -> pd.DataFrame:
-        return clean_data(load_data())
+    def cached_load() -> tuple[pd.DataFrame, str]:
+        df, mode = load_data(DATA_PATH, nrows=5000)
+        return clean_data(df), mode
 
-    df = cached_load()
+    df, data_mode = cached_load()
+    st.markdown(f'<div class="data-badge">Data source: {data_mode}</div>', unsafe_allow_html=True)
 
     st.sidebar.header("Filters")
     boroughs = sorted([b for b in df["Borough"].dropna().unique().tolist() if b != "nan"]) if "Borough" in df.columns else []

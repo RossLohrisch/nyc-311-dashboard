@@ -4,12 +4,17 @@ A Streamlit dashboard that explores NYC 311 service requests, highlights basic d
 
 ## What it does
 
-- loads NYC 311 service request data
+- loads a local NYC 311 sample when available
+- falls back to the public dataset if needed
 - cleans and standardizes key fields
 - shows summary metrics
 - charts complaint volume over time
 - breaks down complaints by borough and complaint type
 - lets you filter and download the cleaned data
+
+## Fast startup
+
+For reviewers, the app uses a local cached sample when available so it opens quickly instead of waiting on a full remote download.
 
 ## Dataset
 
