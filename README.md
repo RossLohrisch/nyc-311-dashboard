@@ -29,5 +29,16 @@ _Add screenshots here once the app is running._
 
 ```bash
 pip install -r requirements.txt
+```
+
+If that does not work on your system, try:
+
+```bash
+python -m pip install -r requirements.txt
+```
+
+Then run:
+
+```bash
 streamlit run app.py
 ```
