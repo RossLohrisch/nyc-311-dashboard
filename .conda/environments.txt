@@ -1,0 +1,6 @@
+C:\ProgramData\anaconda3
+C:\Users\Ross Lohrisch\.conda\envs\r_env
+C:\Users\Ross Lohrisch\.conda\envs\isye6414
+C:\Users\Ross Lohrisch\.conda\envs\js-env
+C:\Users\Ross Lohrisch\.conda\envs\hw4
+C:\Users\Ross Lohrisch\.conda\envs\hw4_exact

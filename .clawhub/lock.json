@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "skills": {
+    "self-improving-agent": {
+      "version": "3.0.13",
+      "installedAt": 1775243447118
+    },
+    "data-analysis": {
+      "version": "1.0.2",
+      "installedAt": 1775244282660
+    },
+    "self-improving": {
+      "version": "1.2.16",
+      "installedAt": 1775244347817
+    },
+    "nano-banana-pro": {
+      "version": "1.0.1",
+      "installedAt": 1775244372015
+    },
+    "agent-browser-clawdbot": {
+      "version": "0.1.0",
+      "installedAt": 1775244412912
+    },
+    "clawdhub": {
+      "version": "1.0.0",
+      "installedAt": 1775244445996
+    },
+    "web-search-plus": {
+      "version": "2.9.2",
+      "installedAt": 1775244480466
+    },
+    "market-research": {
+      "version": "1.0.1",
+      "installedAt": 1775244504407
+    }
+  }
+}

@@ -1,0 +1,1 @@
+alias project='cd ~/Documents/GITHUB\ REPOS/School/CSE-6242-Group-50'
