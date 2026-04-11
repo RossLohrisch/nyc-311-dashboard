@@ -49,6 +49,17 @@ This project uses NYC Open Data 311 service requests:
 
 ```bash
 pip install -r requirements.txt
+```
+
+If that does not work, try:
+
+```bash
+python -m pip install -r requirements.txt
+```
+
+Then run:
+
+```bash
 streamlit run app.py
 ```
 
