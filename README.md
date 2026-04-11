@@ -8,7 +8,7 @@ NYC 311 data is messy, high-volume, and full of real-world inconsistency. This d
 
 ## Live demo
 
-_Add your deployed Streamlit link here._
+https://nyc-311-dashboard-6agf3rq3kcnd3dhbnx2hwf.streamlit.app/
 
 ## Features
 
@@ -62,16 +62,6 @@ Then run:
 ```bash
 streamlit run app.py
 ```
-
-## Portfolio polish checklist
-
-Before featuring this project, I’d recommend:
-
-- add a deployed demo link
-- add screenshots or a short GIF
-- replace placeholder text with a short project story
-- mention the most interesting insight you found
-- make sure the app opens quickly and behaves well with filters
 
 ## Tech stack
 
