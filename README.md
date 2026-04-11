@@ -52,16 +52,6 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-## Portfolio polish checklist
-
-Before featuring this project, I’d recommend:
-
-- add a deployed demo link
-- add screenshots or a short GIF
-- replace placeholder text with a short project story
-- mention the most interesting insight you found
-- make sure the app opens quickly and behaves well with filters
-
 ## Tech stack
 
 - Python
