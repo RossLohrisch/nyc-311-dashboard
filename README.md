@@ -1,15 +1,10 @@
 # NYC 311 Data Quality Dashboard
 
-An interactive Streamlit dashboard that turns NYC 311 service requests into a clean, readable portfolio project.
+An interactive Streamlit dashboard that turns NYC 311 service requests into a clean, readable project.
 
 ## Why this project matters
 
-NYC 311 data is messy, high-volume, and full of real-world inconsistency. This dashboard shows that I can:
-
-- clean and standardize raw public data
-- surface data quality issues clearly
-- build a useful exploratory dashboard from scratch
-- make the result easy for non-technical viewers to understand
+NYC 311 data is messy, high-volume, and full of real-world inconsistency. This dashboard turns that raw public data into something readable, usable, and easy to explore.
 
 ## Live demo
 
