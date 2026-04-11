@@ -30,9 +30,8 @@ https://nyc-311-dashboard-6agf3rq3kcnd3dhbnx2hwf.streamlit.app/
 
 ## Screenshots
 
-Add 2-4 screenshots here once the app is deployed or running locally.
+<img width="1910" height="864" alt="image" src="https://github.com/user-attachments/assets/f137dbb3-9704-4ad0-8e78-ba16fdfa4b15" />
 
-Suggested shots:
 
 - full dashboard overview
 - filter state
