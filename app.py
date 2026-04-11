@@ -194,7 +194,10 @@ def run_download(mode: str, requested_rows: int | None, total_dataset_rows: int 
     else:
         progress.progress(100, text=f"Downloading data… 100% complete ({total_rows:,} / {total_target_rows:,} rows)")
         eta_placeholder.markdown("<span class='progress-estimate'>Estimated time remaining: 0 seconds</span>", unsafe_allow_html=True)
-    st.info(f"Saved dataset to {FULL_FILE.resolve()}")
+    if "status" in globals() and hasattr(status, "write"):
+        status.write(f"Saved dataset to {FULL_FILE.resolve()}")
+    else:
+        st.info(f"Saved dataset to {FULL_FILE.resolve()}")
 
 
 def main() -> None:
