@@ -29,7 +29,7 @@ https://nyc-311-dashboard-6agf3rq3kcnd3dhbnx2hwf.streamlit.app/
 - a cleaned sample table for quick inspection
 
 ## Screenshots
-<img width="1910" height="607" alt="image" src="https://github.com/user-attachments/assets/ec0ae229-6b5c-4764-bfac-ff292cd33a76" />
+<img width="1798" height="550" alt="image" src="https://github.com/user-attachments/assets/95e7d855-4fd2-429b-a6c6-d97b0d1eacd0" />
 <img width="1910" height="864" alt="image" src="https://github.com/user-attachments/assets/f137dbb3-9704-4ad0-8e78-ba16fdfa4b15" />
 
 ## Dataset
