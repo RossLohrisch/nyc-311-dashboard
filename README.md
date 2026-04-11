@@ -31,6 +31,8 @@ https://nyc-311-dashboard-6agf3rq3kcnd3dhbnx2hwf.streamlit.app/
 ## Screenshots
 
 <img width="1910" height="864" alt="image" src="https://github.com/user-attachments/assets/f137dbb3-9704-4ad0-8e78-ba16fdfa4b15" />
+<img width="721" height="351" alt="image" src="https://github.com/user-attachments/assets/f9116551-24d6-4e3e-9e5c-53388f466c9e" />
+<img width="731" height="352" alt="image" src="https://github.com/user-attachments/assets/a93178cf-799e-4acc-9f27-609a736ecc48" />
 
 
 - full dashboard overview
